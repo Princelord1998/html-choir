@@ -4,7 +4,7 @@
 error_reporting(0);
 if(strlen($_SESSION['alogin'])==0)
 {
-    header('location:../index.php');
+    header('location:../index.html');
     exit();
 }
 ?>

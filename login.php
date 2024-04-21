@@ -37,5 +37,5 @@ if ($result->num_rows == 1) {
 }
 // Invalid username or password
 echo "Invalid username or password.";
-header("Location: index.php");
+header("Location: index.html");
 }
